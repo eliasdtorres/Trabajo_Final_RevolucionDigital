@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="static/styles.css"">
+    <link rel=" icon" href="static/logo-superior.png">
+
+</head>
+
+<body class="contact">
+
+
+    <header>
+
+        <nav class="container container-cont ">
+            <a href="index.html"><img src="static/logo.png" alt="logo-old-fashioned"
+                    class="container container-cont logo"></a>
+
+            <ul class="nav">
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html" target="_blank">Menú</a></li>
+                <li><a href="contact.html" target="_blank">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <h3 class="contact-title">Reservas,consultas o sugerencias</h3>
+
+    <main class="main-gral">
+
+        <div class="container">
+
+            <div class="row">
+
+                <section class="formulario col-md-12 ">
+                    <h1 class="text-center">Comunicate con nosotros</h1>
+                    <div class="row">
+                        <div class="col-md-5 ">
+                            <form class="text-left">
+
+                                <div class="form-group">
+                                    <label class="form-label" for="nombre">Nombre</label>
+                                    <input class="form-control" type="text" id="nombre" required="true" maxlength="45"
+                                        placeholder="Escriba su nombre">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="email">E-mail</label>
+                                    <input class="form-control" type="email" id="email" required="true" maxlength="45"
+                                        placeholder="Ej: nombre@mail.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="tel">Tel/Tel-móvil</label>
+                                    <input class="form-control" type="tel" id="tel" maxlength="45"
+                                        pattern="[0-9]{3}[0-9]{7}" placeholder="Ej: 336-4123123"
+                                        title="Ingrese el formato correcto">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="asunto">Asunto</label>
+                                    <input class="form-control" type="text" id="asunto" required="true" maxlength="45"
+                                        placeholder="Escriba motivo">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="msg">Mensaje</label>
+                                    <textarea class="form-control" name="msg" id="msg" cols="30" rows="10"
+                                        maxlength="1000" required="true" placeholder="Escriba su mensaje..."></textarea>
+
+                                </div>
+
+                                <div class="text-align-center justify-content-center btn block">
+
+                                    <input type="submit" class="btn btn-outline-success" value="Enviar">
+
+                                </div>
+
+                            </form>
+
+
+
+                        </div>
+
+                        <div class="col-md-2 vh-100 row align-items-center justify-content-center">
+                            <div class="text-white text-center">
+                                <h3 class="i-wsp">Ó</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 vh-100 row align-items-center justify-content-center">
+
+                            <h3 class="i-wsp text-center">¡Envíanos un Whatsapp!</h3>
+
+
+                            <i class="fas fa-angle-double-down text-center "></i>
+
+
+                            <a class="btn btn-outline-success w-25 " href="https://walink.co/390a08">
+                                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                </section>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <footer class="footer-gral">
+
+        <div class="footer-1">
+
+            <ul>
+                <span>
+                    <p>Navegador </p>
+                </span>
+                <li><a href="#">Ir arriba</a></li>
+                <li> <a href="about.html" target="_blank">Sobre nosotros</a></li>
+                <li> <a href="contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-2">
+
+            <ul>
+                <span>
+                    <p>Seguinos en</p>
+                </span>
+                <li><span><i class="fa-brands fa-facebook-f"></i></span><a href="https://www.facebook.com">
+                        @drinksfashioned</a></li>
+                <li><span><i class="fa-brands fa-instagram"></i></span><a href="https://www.instagram.com">
+                        /drinksfashioned</a></li>
+            </ul>
+
+
+
+        </div>
+
+
+        <div class="subfooter subfooter-contact">
+            <p>Todos los derechos reservados | <span>&REG; </span> Registered(Not Really) | 2022 </p>
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
