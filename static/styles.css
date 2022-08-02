@@ -260,6 +260,15 @@ textarea{
     list-style: none;
 }
 
+
+/*Sobre*/
+
+.about{
+    margin-top: 1em;
+    color: var(--amarillo);
+    text-decoration: overline underline var(--bordo);
+}
+
 ::-webkit-scrollbar {
     width: 12px;
     background-color: black;
