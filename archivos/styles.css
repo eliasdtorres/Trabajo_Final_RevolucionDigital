@@ -12,7 +12,7 @@ body {
     background: black;
     font-family: var(--fuente);
     font-size: 16px;
-    background-image: url(backgrounds/back-index.jpg) no-repeat center center fixed;
+    background-image:url(archivos/backgrounds/back-drinks.png) no-repeat center center fixed;
     background-color: black;
     background-size: auto;
     -webkit-background-size: cover;
@@ -259,6 +259,9 @@ textarea{
 
 /*Menú*/
 
+.menu-body{
+    background-image: url(backgrounds/Back-index.jpg);
+}
 .menu-item{
     list-style: none;
 }
