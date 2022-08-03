@@ -125,7 +125,14 @@ h4 {
 h5 {
     border-bottom: solid var(--bordo);
 }
-
+h6{
+    color: var(--bordo-hover);
+    font-size:18px;
+    border-top:solid var(--amarillo) ;
+    border-left:solid var(--amarillo) ;
+    border-bottom: solid var(--bordo);
+    font-weight: bold;
+}
 
 section {
     margin-bottom: 5em;
@@ -186,14 +193,7 @@ footer li {
 
 
 
-/*Contacto
-    .contact {
-    background: url(back-form.jpg) no-repeat center center fixed;
-    background-size: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-}
-*/
+/*Contacto*/
 
 
 
