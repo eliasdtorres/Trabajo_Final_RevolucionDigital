@@ -203,8 +203,10 @@ footer li {
     margin-top: .5em;
     padding-left: .5em;
     color: var(--amarillo);
-    border-top: solid var(--bordo);
-    border-bottom: solid var(--bordo);
+    border-top: solid black;
+    border-bottom: solid black;
+    
+    background-color:var(--bordo);
 }
 
 .main-gral{
